@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] float _playerMoveSpeed = 5;
+    [SerializeField] float _playerMaxHP = 100;
     void Start()
     {
         
